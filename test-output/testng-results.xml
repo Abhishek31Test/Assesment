@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="92405" started-at="2021-08-08T06:18:07Z" finished-at="2021-08-08T06:19:40Z">
+    <groups>
+    </groups>
+    <test name="/Users/abhishekd/Downloads/Test1" duration-ms="92405" started-at="2021-08-08T06:18:07Z" finished-at="2021-08-08T06:19:40Z">
+      <class name="com.coindcx.requirement.marketScreen.Market">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.coindcx.requirement.marketScreen.Market@52af6cff]" name="setup" is-config="true" duration-ms="13373" started-at="2021-08-08T11:48:07Z" finished-at="2021-08-08T11:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyingMarketDetails(java.lang.String)[pri:0, instance:com.coindcx.requirement.marketScreen.Market@52af6cff]" name="verifyingMarketDetails" duration-ms="78605" started-at="2021-08-08T11:48:21Z" description="Fetching the details of each market and verifying that details are not null" finished-at="2021-08-08T11:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BTC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingMarketDetails -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.coindcx.requirement.marketScreen.Market@52af6cff]" name="afterTest" is-config="true" duration-ms="410" started-at="2021-08-08T11:49:39Z" finished-at="2021-08-08T11:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.coindcx.requirement.marketScreen.Market -->
+    </test> <!-- /Users/abhishekd/Downloads/Test1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
